@@ -1,0 +1,18 @@
+<div>
+  <mat-toolbar>
+      
+      &nbsp; <a routerLink="main"><button  mat-icon-button color="primary">
+        <mat-icon>home</mat-icon>
+      </button></a>  &nbsp; 
+      <nav>
+          <a mat-raised-button routerLink="coupons" color="primary">Customer</a> &nbsp; 
+          <a mat-raised-button routerLink="Company" color="primary">Companies</a> &nbsp; 
+          <a mat-raised-button routerLink="Administrator" color="primary">Admin</a> &nbsp; 
+          <a mat-raised-button routerLink="login" color="primary"  class="topRight">Login / Logout</a> &nbsp; 
+          
+      </nav>
+  </mat-toolbar>
+  <main>
+      <router-outlet></router-outlet>
+  </main>
+</div>
